@@ -6,7 +6,7 @@ function changeLanguage(lang) {
   }
   
   // Define the language reload anchors
-  var eng = {
+  const eng = {
     
     nContent:"Vadim Dudkin",
     sContent:"Summary",
@@ -32,7 +32,7 @@ function changeLanguage(lang) {
     expernote:"● Project: Web/Mobile/Windows cross-platform application for business communication/project management tool \n ● Studied business and technical requirements to understand the product features \n ● Developed and maintained test documentation such as test cases, test suites, contributed to the test plan \n ● Executed test procedures against new builds \n ● Took part in regression, build acceptance, integration and system level testing \n ● Tested user interface along the guidelines published by the US Department of Health and Human Services \n ● Reported software anomalies and defects using Jira, verified bugs fixed \n ● Communicated with other cross-functional team members to identify resolve issues \n ● Participated in Agile Scrum meeting and other Agile rituals \n ● Utilized Postman for testing web services (REST API testing)"
    
   }
-  var ru = {
+  const ru = {
     
     nContent:"Вадим Дудкин",
     sContent:"Резюме",
