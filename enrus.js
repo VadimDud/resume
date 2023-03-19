@@ -62,26 +62,21 @@ function changeLanguage(lang) {
     spec: "Тестировщик/QA"
   };
   
-  // Check if a hash value exists in the URL
-  // if (window.location.hash) {
-  
-  // // Set the content of the webpage
-  // // depending on the hash value
-if (window.location.hash == "#ru") {
-
-  for (var key in ru){
-    let elem = document.getElementById(key)
+// Check if a hash value exists in the URL
+if (window.location.hash === "#ru") {
+  // Set the content of the webpage depending on the hash value
+  for (let key in ru) {
+    let elem = document.getElementById(key);
     if (elem) {
-      elem.innerHTML = ru[key];
-  //   console.log(key.textContent);
-  } }
-  } else if (window.location.hash != "#ru") {
-
-  for (var key in eng){
-    let elem = document.getElementById(key)
-    if (elem) {
-      elem.innerHTML = eng[key];
-  //    console.log(key.textContent);
+      elem.textContent = ru[key];
+    }
   }
-  }}
-
+} else {
+  // Set the default language content
+  for (let key in eng) {
+    let elem = document.getElementById(key);
+    if (elem) {
+      elem.textContent = eng[key];
+    }
+  }
+}
