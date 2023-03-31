@@ -14,7 +14,7 @@ function changeLanguage(lang) {
     "● Hands-on experience and formal training in testing web and mobile software applications \n" +
     "● Knowledge of software testing methodologies, tools and processes \n" +
     "● Automation engineer for 14 years, system testing \n" +
-    "● Develop solid test documentation including test cases, test suits, test matrices, etc. \n" +
+    "● Develop solid test documentation including test cases, test suites, test matrices, etc. \n" +
     "● Experience in writing clear, concise, easy-to-reproduce bug reports \n" +
     "● Enjoy working as a member of a result-driven team \n" +
     "● Strong analytical, problem-solving \n" +
