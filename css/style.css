@@ -22,15 +22,12 @@ text-align: justify;
     color: #fff;
     background-color: #007bff;
   }
-  #Linkedin
-  {
-	background-color: #258954;
-  }
+  
 
   #ru {
 	background-color: #7d5c2b;
   }
-  #Linkedin:hover,
+ 
   #eng:hover,
   #ru:hover {
 	opacity: 0.8;
