@@ -14,6 +14,28 @@ text-align: justify;
 
 }
 
+  button {
+    padding: 10px 10px;
+    border: black;
+    border-radius: 10px;
+    font-size: xx-small;
+    color: #fff;
+    background-color: #007bff;
+  }
+  #Linkedin
+  {
+	background-color: #258954;
+  }
+
+  #ru {
+	background-color: #7d5c2b;
+  }
+  #Linkedin:hover,
+  #eng:hover,
+  #ru:hover {
+	opacity: 0.8;
+  }
+
 .container
 {
 height: 150px;
