@@ -30,9 +30,9 @@ text-align: justify;
   #ru {
 	background-color: #7d5c2b;
   }
- 
-  #eng:hover,
+
   #Linkedin:hover,
+  #eng:hover,
   #ru:hover {
 	opacity: 0.8;
   }
